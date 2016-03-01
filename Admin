@@ -19,10 +19,10 @@ Admins = {
 ["Memer"] = 3 --Leave this credit alone
 }
 local Levels = {
-[0] = {"Spig", BrickColor.new("Really black")};
-[1] = {"Jew", BrickColor.new("Black")};
-[2] = {"Nazi", BrickColor.new("Dark stone grey")};
-[3] = {"Moonman", BrickColor.new("Medium stone grey")}
+[0] = {"Peasant", BrickColor.new("Really black")};
+[1] = {"Knight", BrickColor.new("Black")};
+[2] = {"Lord", BrickColor.new("Dark stone grey")};
+[3] = {"King", BrickColor.new("Medium stone grey")}
 }
 Players = Game:GetService("Players")
 Workspace = Game:GetService("Workspace")
@@ -72,7 +72,7 @@ local Ans = nil
 local Rank = Admins[Prompter.Name]
 for i=1, #Args do
 local IsKings
-if Args[i]:find("(Memes Only)") then
+if Args[i]:find("(Kings Only)") then
 IsKings = true
 end
 local Book = Instance.new("Part", Game:GetService("Workspace"))
@@ -91,7 +91,7 @@ Book.BrickColor = Settings.Color
 end
 table.insert(Books, Book)
 local Mesh = Instance.new("SpecialMesh", Book)
-Mesh.MeshId = "http://www.roblox.com/asset/?id=1031410"
+Mesh.MeshId = "http://www.roblox.com/asset/?id=15039448"
 Mesh.MeshType = "FileMesh"
 local BG = Instance.new("BodyGyro", Book)
 local BP = Instance.new("BodyPosition", Book)
