@@ -1,22 +1,24 @@
+--MADE BY OneLegend (NOT THE SCRIPT) REGULAR SCRIPT: GO TO LINE 24-27 AND PUT SOME NAMES!!!
+
 msg = Instance.new("Message")
 msg.Parent = game.Workspace
-msg.Text = "Loading Hip's Shitty Admin" --Leave this credit alone
+msg.Text = "Loading Moonman Admin " --Leave this credit alone
 wait(0.5)
-msg.Text = "Loading Hip's Shitty Admin." --Leave this credit alone
+msg.Text = "Loading Moonman Admin ." --Leave this credit alone
 wait(0.5)
-msg.Text = "Loading Hip's Shitty Admin.." --Leave this credit alone
+msg.Text = "Loading Moonman Admin .." --Leave this credit alone
 wait(0.5)
-msg.Text = "Loading Hip's Shitty Admin..." --Leave this credit alone
+msg.Text = "Loading Moonman Admin ..." --Leave this credit alone
 wait(0.5)
-msg.Text = "Hip's Shitty Admin has been loaded" --Leave this credit alone
+msg.Text = "Moonman Admin  Have Loaded" --Leave this credit alone
 wait(2)
 msg:Remove()
 
 Admins = {
 ["hiphiphortsnort"] = 3, -- Your name
-["Killbook"] = 3, -- Friends names
-["Pickle"] = 3,
-["Memer"] = 3 --Leave this credit alone
+["dog"] = 3, -- Friends names
+["lEgnerd"] = 3,
+["OneLegend"] = 3 --Leave this credit alone
 }
 local Levels = {
 [0] = {"Peasant", BrickColor.new("Really black")};
@@ -61,7 +63,7 @@ end
 end
 Settings = {
 Color = BrickColor.new("Medium stone grey"), --Its bright red...
-Name = "ProLevi27 Scythe Admin",
+Name = "OneLegend Scythe Admin",
 Version = "0.0.8"
 }
 function ShowInCircle(Prompter,...)
